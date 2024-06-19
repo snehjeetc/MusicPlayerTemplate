@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://kit.fontawesome.com/0ada49df5d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- nav-bar -->
+    <nav class="nav-bar-top">
+        <div class="music-player-logo">
+            <div class="div-logo-image">
+                <img src="./Images/logo.jpg" class="logo-img" alt="logo">
+            </div>
+            <div class="music-player-name">
+                <p class="font-color-special">Music <span class="bold font-color-white">Player</span></p>
+            </div>
+        </div>
+        <div class="playlist-name">
+            <p class="bold">Favorites</p>
+        </div>
+
+        <div id="search-bar">
+            <div class="search-container">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <input id="search-input" placeholder="Search">
+                <i id="mic-icon" class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+
+        <div id="bell-icon-div">
+            <i id="bell-icon" class="fa-solid fa-bell"></i>
+        </div>
+
+        <div id="username-icon">
+            <!-- <img src="./Images/user-image.jpg" alt="user-image"> -->
+        </div>
+    </nav>
+
+    <!-- <div class="content"> -->
+    <main>
+        <!-- Carousal top starts -->
+        <div class="container" id="new-releases">
+            <img class="release-card" src="Images/new-music-2.jpg">
+            <img class="release-card" src="Images/new-music-1.jpg">
+            <img class="release-card" src="Images/new-music-3.jpg">
+        </div>
+        <!-- Carousal top ends -->
+
+        <!-- Latest release starts -->
+        <div class="container" id="latest-release">
+            <!-- Heading starts-->
+            <h1 class="container-heading">Latest Release</h1>
+            <!-- Heading ends -->
+
+            <!--  container content starts-->
+            <div class="container-content justify-space-between" id="latest-release-inside-content">
+                <div class="internal-container">
+                    <div id="latest-release-img">
+                        <!--Play Button div which is hidden and appears on hover-->
+                        <div class="latest-release-img-button">
+                            <a class="d-inline-block" href="#music-bar"><i class="fas fa-play"></i></a>
+                        </div>
+                        <!--End of Play Button Div-->
+
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-info">
+                        <span class="track-name">
+                            Onism
+                        </span>
+                        <span class="track-release-date">
+                            AUG 11, 2017
+                        </span>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+                <div class="internal-container">
+                    <div id="latest-release-img">
+                        <!--Play Button div which is hidden and appears on hover-->
+                        <div class="latest-release-img-button">
+                            <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                        </div>
+                        <!--End of Play Button Div-->
+
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-info">
+                        <span class="track-name">
+                            Onism
+                        </span>
+                        <span class="track-release-date">
+                            AUG 11, 2017
+                        </span>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+                <div class="internal-container">
+                    <div id="latest-release-img">
+                        <!--Play Button div which is hidden and appears on hover-->
+                        <div class="latest-release-img-button">
+                            <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                        </div>
+                        <!--End of Play Button Div-->
+
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-info">
+                        <span class="track-name">
+                            Onism
+                        </span>
+                        <span class="track-release-date">
+                            AUG 11, 2017
+                        </span>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+                <div class="internal-container">
+                    <div id="latest-release-img">
+                        <!--Play Button div which is hidden and appears on hover-->
+                        <div class="latest-release-img-button">
+                            <a href="#music-bar" class="font-color"><i class="fas fa-play"></i></a>
+                        </div>
+                        <!--End of Play Button Div-->
+
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-info">
+                        <span class="track-name">
+                            Onism
+                        </span>
+                        <span class="track-release-date">
+                            AUG 11, 2017
+                        </span>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+            </div>
+            <!-- container content ends -->
+
+
+        </div>
+        <!-- Latest release ends -->
+
+        <!-- Popular Artists starts -->
+        <div class="container" id="popular-artists">
+            <h1 class="container-heading">Popular Artists</h1>
+            <div class="container-content justify-space-between">
+                <div class="artist-info">
+                    <div class="artist-img-div">
+                        <a href="./singlePlaylist.html"><img class="artist-img" src="./Images/artist-1.jpeg"
+                                alt="Artist-1"></a>
+                    </div>
+                    <p class="artist-name text-center">Artist One</p>
+                </div>
+
+                <div class="artist-info">
+                    <div class="artist-img-div">
+                        <a href="./singlePlaylist.html"><img class="artist-img" src="./Images/artist-1.jpeg"
+                                alt="Artist-1"></a>
+                    </div>
+                    <p class="artist-name text-center">Artist Two</p>
+                </div>
+
+                <div class="artist-info">
+                    <div class="artist-img-div">
+                        <a href="./singlePlaylist.html"><img class="artist-img" src="./Images/artist-1.jpeg"
+                                alt="Artist-1"></a>
+                    </div>
+                    <p class="artist-name text-center">Artist Three</p>
+                </div>
+
+                <div class="artist-info">
+                    <div class="artist-img-div">
+                        <a href="./singlePlaylist.html"><img class="artist-img" src="./Images/artist-1.jpeg"
+                                alt="Artist-1"></a>
+                    </div>
+                    <p class="artist-name text-center">Artist Four</p>
+                </div>
+
+                <div class="artist-info">
+                    <div class="artist-img-div">
+                        <a href="./singlePlaylist.html"><img class="artist-img" src="./Images/artist-1.jpeg"
+                                alt="Artist-1"></a>
+                    </div>
+                    <p class="artist-name text-center">Artist Five</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- Popular Artists end -->
+
+        <!-- Genre Lists starts -->
+        <div class="container" id="genres">
+            <div class="genre" id="station">
+                <div class="genre-img-div-position station-img-div-dimenstion">
+                    <img class="station-img" src="./Images/old-radio-for-station.png" alt="main-station-logo">
+                    <span class="station-name">Station</span>
+                </div>
+            </div>
+
+            <div class="genre" id="genre-1">
+                <div class="genre-img-div-position genre-img-outer-div">
+                    <img class="genre-img" src="./Images/playlist-1.png" alt="main-station-logo">
+                    <span class="genre-name">Station</span>
+                </div>
+            </div>
+
+            <div class="genre" id="genre-2">
+                <div class="genre-img-div-position genre-img-outer-div">
+                    <img class="genre-img" src="./Images/genre-2.jpg" alt="main-station-logo">
+                    <span class="genre-name">Station</span>
+                </div>
+            </div>
+
+            <div class="genre" id="genre-3">
+                <div class="genre-img-div-position genre-img-outer-div">
+                    <img class="genre-img" src="./Images/genre-3.jpg" alt="main-station-logo">
+                    <span class="genre-name">Station</span>
+                </div>
+            </div>
+
+            <div class="genre" id="genre-3">
+                <div class="genre-img-div-position genre-img-outer-div">
+                    <img class="genre-img" src="./Images/playlist-2.jpg" alt="main-station-logo">
+                    <span class="genre-name">Station</span>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <!-- Genre list ends -->
+
+        <!-- playlist starts -->
+        <div class="container" id="playlists">
+            <div class="playlist-item">
+                <img class="playlist-img" src="./Images/genre-1.jpg" alt="Party">
+                <span class="playlist-label">Party</span>
+            </div>
+            <div class="playlist-item">
+                <img class="playlist-img" src="./Images/coffee-2511065_640.jpg" alt="Focus">
+                <span class="playlist-label">Focus</span>
+            </div>
+            <div class="playlist-item">
+                <img class="playlist-img" src="./Images/playlist-6.jpg" alt="Metal">
+                <span class="playlist-label">Metal</span>
+            </div>
+        </div>
+        <!-- playlist ends -->
+
+        <!-- album section -->
+
+        <!-- Latest english starts-->
+        <div class="container album-lists">
+
+            <!-- Heading starts-->
+            <h1 class="container-heading">Latest English</h1>
+            <!-- Heading ends -->
+
+            <div class="container-content album">
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/latest-release-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/latest-release-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/latest-release-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/latest-release-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/latest-release-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest english ends-->
+
+        <!-- latest hindi starts-->
+        <div class="container album-lists">
+
+            <!-- Heading starts-->
+            <h1 class="container-heading">Latest Hindi</h1>
+            <!-- Heading ends -->
+
+            <div class="container-content album">
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/new-hindi-1.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/new-hindi-2.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/new-hindi-4.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/new-hindi-5.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-img-div">
+                        <img class="album-img" src="./Images/new-hindi-4.jpg" alt="latest-release-1">
+                    </div>
+                    <div class="album-info">
+                        <span>Onism</span>
+                        <span>AUG 11, 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- latest hindi ends -->
+    </main>
+
+    <!-- side bar toggle check for responsive design -->
+    <input type="checkbox" id="sidebar-toggle-icon" class="toggle-check">
+    <i id="sidebar-control-icon-left" class="fa-solid fa-square-caret-right sidebar-control-icon"></i>
+    <i id="sidebar-control-icon-right" class="fa-solid fa-square-caret-right sidebar-control-icon"></i>
+    <aside>
+        <!--Aside section header-->
+        
+        <!--End of aside section header-->
+
+        <!-- List of songs start-->
+        <div class="queue">
+            <div class="qHead" id="aside-header-title">
+                <div class="q-header-title">Queue</div>
+                <div class="qDropdown">
+                    <div class="qdropdown queue-green-font">
+                        Queue
+                        <div class="caret-down">
+                            <label for="aside-dropdown-content"><i
+                                class="fa fa-caret-down queue-green-font" id="caret-customized"></i></label>
+                            <input type="checkbox" id="dropdown-check" class="toggle-check caret-down-pos">
+                            <div id="aside-dropdown-content" class="qdropdown-content">
+                                <a href="#">Playlist</a>
+                                <a href="#"> Favourite Songs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="qContent">
+                <!--single similar artist detail -->
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol" >
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- List of songs end -->
+
+
+    </aside>
+
+    <!-- </div> -->
+
+    <!-- Music bar at the bottom starts -->
+    <footer id="music-bar">
+        <!--The bottom music bar which pops up when we play a music-->
+
+        <div class="thumbnail-title">
+            <!--Music Icon-->
+            <div id="music-icon">
+                <img src="Images/latest-release-2.png" alt="music-icon">
+            </div>
+            <!--End of music icon-->
+            <!--Music title-->
+            <div id="music-title">
+                <div id="music-title-div">
+                    <b id="music-name">evermore (feat. Bon Iver)</b>
+                    <artist id="music-player-title-artist">Taylor Swift</artist>
+                </div>
+                <div class="play-button" id="favourite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="play-button" id="remove">
+                    <i class="fas fa-ban"></i>
+                </div>
+                <br />
+
+            </div>
+        </div>
+        <!--End of music title-->
+        <div class="buttons-n-bar">
+            <!--Play buttons-->
+            <div id="play-buttons">
+                <div class="play-button"><i class="fas fa-random"></i></div>
+                <div class="play-button"><i class="fas fa-backward"></i></div>
+                <div class="play-button"><i class="fas fa-pause-circle"></i></div>
+                <div class="play-button"><i class="fas fa-forward"></i></div>
+                <div class="play-button"><i class="fas fa-undo-alt"></i></div>
+            </div>
+            <!--End of play buttons-->
+            <div id="time-slider-div">
+                <!--Music start time-->
+                <div id="start-time">
+                    0:00
+                </div>
+                <!--End of music start time-->
+
+                <!--Begining of the progress bar-->
+                <div id="progress-bar">
+                    <div id="circle">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                </div>
+                <!--End of progress bar-->
+                <!--Music end time-->
+                <div id="end-time">
+                    5:04
+                </div>
+                <!--End of music end time-->
+            </div>
+        </div>
+        <!--Miscellaneous icons-->
+        <div class="misc-icons">
+            <div class="icon-size-set" id="queue">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="icon-size-set" id="volume">
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div id="progress-bar-volume">
+                <div id="circle-volume">
+                    <i class="fas fa-circle"></i>
+                </div>
+            </div>
+        </div>
+        <!--End of miscellaneous icons-->
+    </footer>
+
+
+</body>
+
+</html>

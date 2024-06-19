@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0ada49df5d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./single-playlist.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- nav-bar -->
+    <nav class="nav-bar-top">
+        <div class="music-player-logo">
+            <div class="div-logo-image">
+                <img src="./resources/logo.jpg" class="logo-img" alt="logo">
+            </div>
+            <div class="music-player-name">
+                <p class="font-color-special">Music <span class="bold font-color-white">Player</span></p>
+            </div>
+        </div>
+        <div class="playlist-name">
+            <p class="bold">Favorites</p>
+        </div>
+
+        <div id="search-bar">
+            <div class="search-container">
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <input id="search-input" placeholder="Search">
+                <i id="mic-icon" class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+
+        <div id="bell-icon-div">
+            <i id="bell-icon" class="fa-solid fa-bell"></i>
+        </div>
+
+        <div id="username-icon">
+            <!-- <img src="./Images/user-image.jpg" alt="user-image"> -->
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- artist info starts-->
+        <div id="artist-template">
+            <div id="artist-image">
+            </div><!--Artist Details-->
+            <div id="artist-details">
+                <!--Artist Title-->
+                <div id="artist-info">
+                    <div class="d-inline-block bold" id="artist-title">
+                        <b>Tony Stark</b>
+                    </div>
+                    <div class="d-inline-block">
+                        <p>96.7k followers</p>
+                    </div>
+
+                    <p class="artist-type">Pop Artist</p>
+                </div>
+                <!--End of Artist Title-->
+                <!--Artist Intro-->
+                <div id="artist-intro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quod veniam! Iste nostrum itaque
+                    iusto eaque inventore odio magnam a dicta maiores, saepe mollitia nisi ut voluptates nesciunt in
+                    totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem consectetur quos
+                    excepturi illum beatae pariatur nulla, nobis qui maiores non veritatis quibusdam consequatur
+                    incidunt dolore. Nam obcaecati velit cupiditate?
+                </div>
+                <!--End of Artist Intro-->
+                <!--Miscellaneous Buttons-->
+                <div id="artist-buttons">
+                    <!-- <div id="playall-button">
+                        Play All
+                    </div> -->
+
+                    <button id="playall-button">Play All</button>
+
+                    <div id="follow-button">
+                        Follow
+                    </div>
+                </div>
+                <div id="tracks">
+                    247 Tracks | 128 Albums
+                </div>
+                <!--End of miscellaeous buttons-->
+            </div>
+            <!--End of artist details-->
+        </div>
+        <!-- artist info ends -->
+
+        <!-- artist songs starts-->
+        <div id="artist-songs">
+            <!--Song 1-->
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">01</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">02</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">03</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">04</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">05</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="song">
+                <div class="song-info">
+                    <span class="song-number">06</span>
+                    <div class="song-img"><img src="Images/superhero-song-img.jpg" alt="song image"></div>
+                    <div class="song-details">
+                        <span class="song-name">Superhero</span>
+                        <span class="artist-name">Tony Stark</span>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <i class="far fa-heart d-inline-block icon" aria-hidden="true"></i>
+                    <i class="fas fa-plus d-inline-block icon" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!-- artist songs ends -->
+
+    </main>
+
+
+    <!-- side bar toggle check for responsive design -->
+    <input type="checkbox" id="sidebar-toggle-icon" class="toggle-check">
+    <i id="sidebar-control-icon-left" class="fa-solid fa-square-caret-right sidebar-control-icon"></i>
+    <i id="sidebar-control-icon-right" class="fa-solid fa-square-caret-right sidebar-control-icon"></i>
+    <aside>
+        <div class="queue">
+            <div class="qHead">
+                <div class="q-header-title">Similar Artist</div>
+                <div><a href="" class="no-underline font-color-grey self-centered">View All</a></div>
+            </div>
+            <div class="qContent">
+                <!--single similar artist detail -->
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation" id="track-length">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <span>4:44</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="queue">
+            <div class="qHead">
+                <div class="q-header-title">Recently Played</div>
+                <div><a href="" class="no-underline font-color-grey self-centered">View All</a></div>
+            </div>
+            <div class="qContent">
+                <!--single similar artist detail -->
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="queue-item">
+                    <!-- artist-image -->
+                    <div class="queue-item-first-section">
+                        <div class="q-artist-img">
+                            <img src="./Images/artist-01.jpg" alt="artist-1">
+                        </div>
+                        <div class="q-item-detail">
+                            <span class="q-detail-head">Some Artist</span>
+                            <span class="q-detail-tail">Rock</span>
+                        </div>
+                    </div>
+                    <div class="flexbox-column-orientation fav-heart-symbol">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </aside>
+
+    <!-- Music bar at the bottom starts -->
+    <footer id="music-bar">
+        <!--The bottom music bar which pops up when we play a music-->
+
+        <div class="thumbnail-title">
+            <!--Music Icon-->
+            <div id="music-icon">
+                <img src="Images/latest-release-2.png" alt="music-icon">
+            </div>
+            <!--End of music icon-->
+            <!--Music title-->
+            <div id="music-title">
+                <div id="music-title-div">
+                    <b>evermore (feat. Bon Iver)</b>
+                    <artist id="music-player-title-artist">Taylor Swift</artist>
+                </div>
+                <div class="play-button" id="favourite">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="play-button" id="remove">
+                    <i class="fas fa-ban"></i>
+                </div>
+                <br />
+
+            </div>
+        </div>
+        <!--End of music title-->
+        <div class="buttons-n-bar">
+            <!--Play buttons-->
+            <div id="play-buttons">
+                <div class="play-button"><i class="fas fa-random"></i></div>
+                <div class="play-button"><i class="fas fa-backward"></i></div>
+                <div class="play-button"><i class="fas fa-pause-circle"></i></div>
+                <div class="play-button"><i class="fas fa-forward"></i></div>
+                <div class="play-button"><i class="fas fa-undo-alt"></i></div>
+            </div>
+            <!--End of play buttons-->
+            <div id="time-slider-div">
+                <!--Music start time-->
+                <div id="start-time">
+                    0:00
+                </div>
+                <!--End of music start time-->
+
+                <!--Begining of the progress bar-->
+                <div id="progress-bar">
+                    <div id="circle">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                </div>
+                <!--End of progress bar-->
+                <!--Music end time-->
+                <div id="end-time">
+                    5:04
+                </div>
+                <!--End of music end time-->
+            </div>
+        </div>
+        <!--Miscellaneous icons-->
+        <div class="misc-icons">
+            <div class="icon-size-set" id="queue">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="icon-size-set" id="volume">
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div id="progress-bar-volume">
+                <div id="circle-volume">
+                    <i class="fas fa-circle"></i>
+                </div>
+            </div>
+        </div>
+        <!--End of miscellaneous icons-->
+    </footer>
+
+
+</body>
+
+</html>
